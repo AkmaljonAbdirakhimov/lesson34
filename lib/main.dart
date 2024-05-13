@@ -6,6 +6,7 @@
 //? Scaffold'ga rasm qo'yish
 
 import 'package:flutter/material.dart';
+import 'package:lesson34/pages/audio_player_page.dart';
 import 'package:lesson34/pages/home_page.dart';
 import 'package:lesson34/pages/second_page.dart';
 import 'package:lesson34/pages/thrid_page.dart';
@@ -59,7 +60,7 @@ class _MyAppState extends State<MyApp> {
       //     primary: Colors.yellow,
       //   ),
       // ),
-      home: const ThirdPage(),
+      home: const AudioPlayerPage(),
     );
   }
 }
